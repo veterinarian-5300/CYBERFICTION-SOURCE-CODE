@@ -422,7 +422,8 @@ function scaleImage(img, ctx) {
     centerShift_y,
     img.width * ratio,
     img.height * ratio
-  );
+  ); 
+  // HI
 }
 ScrollTrigger.create({
   trigger: "#page>canvas",
